@@ -1,0 +1,36 @@
+.item {
+  height: 40px;
+  text-align: left;
+  clear: both;
+  padding: 0;
+  line-height: 40px;
+}
+
+.quantity {
+  color: black;
+}
+
+.quantity::after {
+  content: ")";
+}
+
+.quantity::before {
+  content: "(";
+}
+
+.plus {
+  width: 30px;
+  background: red;
+  border-radius: 50%;
+  color: white;
+  padding: 5px;
+}
+
+.minus {
+  width: 30px;
+  background: black;
+  border-radius: 50%;
+  color: white;
+  padding: 5px;
+  margin-left: 10px;
+}
